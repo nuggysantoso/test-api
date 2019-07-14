@@ -1,0 +1,29 @@
+{
+    "checkoutSchemaWithoutHeader":{
+        "type": "object",
+        "properties": {
+        "status": {
+        "type": "string"
+        },
+            "error": {
+                "type": "object",
+                "properties": {
+            "message": {
+                "type": "string"
+            },
+            "kind": {
+                "type": "string"
+            }
+        },
+            "required": [
+                "message",
+                "kind"
+            ]
+        }
+        },
+            "required": [
+                "status",
+                "error"
+            ]
+        }
+}

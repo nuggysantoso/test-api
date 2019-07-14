@@ -1,0 +1,25 @@
+{
+    "checkoutSchema":{
+    "type": "object",
+    "properties": {
+        "status": {
+        "type": "string"
+        },
+            "message": {
+            "type": "string"
+        },
+        "redirect_url": {
+            "type": "string"
+        },
+        "transaction_id": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "status",
+        "message",
+        "redirect_url",
+        "transaction_id"
+    ]
+    }
+}

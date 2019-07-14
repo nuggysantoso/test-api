@@ -1,0 +1,22 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Kredivo Test Api",
+  "main": "index.js",
+  "scripts": {
+    "api-test": "./node_modules/mocha/bin/mocha ./tests/api --recursive --reporter mochawesome --reporter-options reportDir=./tests/reports/mochawesome/ --timeout 180000  --exit"
+  },
+  "author": "NuggySantoso",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "chai-subset": "^1.6.0",
+    "co-mocha": "^1.2.2",
+    "supertest": "^4.0.2",
+    "mochawesome": "^4.0.1",
+    "dotenv": "^8.0.0"
+  }
+}
